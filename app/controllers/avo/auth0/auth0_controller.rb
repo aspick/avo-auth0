@@ -32,7 +32,7 @@ module Avo::Auth0
 
     def logout_url
       request_params = {
-        returnTo: '/',
+        returnTo: main_app.root_url,
         client_id: AUTH0_CONFIG['auth0_client_id']
       }
   
