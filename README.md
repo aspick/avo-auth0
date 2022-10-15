@@ -7,7 +7,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'avo'
-gem 'avo-auth0'
+gem 'avo-auth0', git: 'https://github.com/aspick/avo-auth0.git'
 ```
 
 Mount this plugin
