@@ -10,9 +10,6 @@ module Avo::Auth0
       auth_info = request.env['omniauth.auth']
       session[:userinfo] = auth_info['extra']['raw_info']
 
-      puts '#### all env'
-      pp request.env['omniauth.auth']
-
       # Redirect to the URL you want after successful auth
       redirect_to '/avo'
     end

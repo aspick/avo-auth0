@@ -12,6 +12,6 @@ Rails.application.config.middleware.use OmniAuth::Builder do
     authorize_params: {
       scope: 'openid email profile'
     },
-    path_prefix: '/foo/auth'
+    path_prefix: '/auth'
   )
 end
