@@ -1,0 +1,14 @@
+test:
+  auth0_domain: 'test.auth0.com'
+  auth0_client_id: 'test_client_id'
+  auth0_client_secret: 'test_client_secret'
+
+development:
+  auth0_domain: 'dev.auth0.com'
+  auth0_client_id: 'dev_client_id'
+  auth0_client_secret: 'dev_client_secret'
+
+production:
+  auth0_domain: 'prod.auth0.com'
+  auth0_client_id: 'prod_client_id'
+  auth0_client_secret: 'prod_client_secret'

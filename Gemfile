@@ -6,6 +6,7 @@ gemspec
 
 group :development do
   gem 'sqlite3'
+  gem 'sprockets-rails'
 end
 
 # To use a debugger

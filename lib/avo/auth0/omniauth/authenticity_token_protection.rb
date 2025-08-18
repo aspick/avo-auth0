@@ -1,4 +1,4 @@
-require_dependency "omniauth"
+require "omniauth"
 
 module Avo
   module Auth0
